@@ -3,31 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title>Git Tutorial</title>
-    <link rel="stylesheet" href="estilo.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <h1>📘 Tutorial de Git</h1>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <span class="navbar-brand mb-0 h1">Tutorial de Git</span>
+        </div>
+    </nav>
 
-    <h2>¿Qué es Git?</h2>
-    <p>
-        Git es un sistema de control de versiones que permite llevar un registro
-        de los cambios en proyectos, especialmente en desarrollo de software.
-    </p>
+    <div class="container mt-4">
 
-    <h2>Comandos básicos</h2>
-    <ul>
-        <li><b>git init</b> → Inicializa un repositorio</li>
-        <li><b>git add .</b> → Agrega archivos</li>
-        <li><b>git commit -m "mensaje"</b> → Guarda cambios</li>
-        <li><b>git push</b> → Sube cambios a GitHub</li>
-    </ul>
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">📘 Introducción a Git</h1>
+            </div>
+        </div>
 
-    <h2>Ramas en Git</h2>
-    <p>
-        Las ramas permiten trabajar en diferentes versiones del proyecto sin
-        afectar la principal.
-    </p>
+        <div class="row mt-4">
+
+            <div class="col-md-6">
+                <div class="card p-3 shadow">
+                    <h3>¿Qué es Git?</h3>
+                    <p>
+                        Git es un sistema de control de versiones que permite
+                        registrar cambios en proyectos y trabajar en equipo.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card p-3 shadow">
+                    <h3>Ramas</h3>
+                    <p>
+                        Las ramas permiten trabajar en nuevas funcionalidades sin
+                        afectar la versión principal del proyecto.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="card p-3 shadow">
+                    <h3>Comandos básicos</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item">git init</li>
+                        <li class="list-group-item">git add .</li>
+                        <li class="list-group-item">git commit</li>
+                        <li class="list-group-item">git push</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
